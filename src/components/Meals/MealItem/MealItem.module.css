@@ -4,11 +4,6 @@
   margin: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    padding-bottom: 0;
-    border-bottom: none;
-  }
 }
 
 .meal h3 {
@@ -29,7 +24,7 @@
 .image {
   margin: 0 0 0.25rem 0;
   padding: 1rem 0 1rem 0;
-  align-self: center;
-  width: auto;
+  /* border-bottom: 1px solid #ccc; */
+  width: 260px;
   height: 250px;
 }
